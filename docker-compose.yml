@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  galakser-api:
+    build: .
+    container_name: galakser-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Monterer databasen utenfra (fra lokal mappe) inn i containeren under /app/data/
+      - ./koordinasjoner.db:/app/data/koordinasjoner.db:ro
+    environment:
+      # Settes av proxyen i produksjon, feks: /dhlab/galakser
+      - ROOT_PATH=
+      - DB_PATH=/app/data/koordinasjoner.db
+    restart: unless-stopped

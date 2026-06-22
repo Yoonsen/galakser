@@ -1,0 +1,61 @@
+\documentclass[11pt, a4paper]{article}
+
+% --- Fonter og tegnsett ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo} % Palatino font for tekst og matte
+\usepackage[english]{babel}
+
+% --- Formatering og grafikk ---
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+
+% --- Tittel og Forfatter ---
+\title{Overlapping Semantic Communities in Word Networks:\\Bridging Partitioning and Polysemy through Line Graph Clustering and Roaring Bitmaps}
+\author{Lars G. Bagøien Johnsen \\ Department of Research \\ National Library of Norway \\ lars.johnsen@nb.no}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We introduce a novel approach to resolving the fundamental dilemma between overlapping community detection (k-cliques) and graph partitioning methods (such as the Louvain algorithm) in the context of semantic word networks. While traditional partitioning forces polysemous words into single communities, thereby destroying semantic ambiguity, overlapping methods often suffer from rigidity and low coverage. By applying community detection to the \textit{line graph} of the word network, we demonstrate how edge-based clustering naturally produces overlapping node communities when projected back to the original graph. Furthermore, we address the computational challenge of scaling to corpus-wide co-occurrence data (1.7 billion instances) by utilizing Radon-Nikodym ratios for semantic filtering, encoded into high-performance Roaring Bitmaps. This allows for lightning-fast sub-graph retrieval using purely bitwise logic, circumventing the need for expensive vector-space similarity search.
+\end{abstract}
+
+\section{Introduction}
+% - Tilbakeblikk på problemet med å fange polysomi i ordnettverk (referanse til paper6).
+% - Dilemmaet mellom partition methods (Louvain) og overlapping methods (k-cliques).
+In previous work (Johnsen, 2016), we observed a fundamental trade-off in network semantics...
+
+\section{Methodology: The Semantic Line Graph}
+% - Utregning av koordinasjoner basert på Radon-Nikodym thresholding i et case-foldet ngram-korpus.
+% - Matematisk definisjon av Linjegrafen L(G).
+% - Hvordan Louvain-algoritmen brukt på L(G) garanterer overlappende noder i G.
+
+\subsection{Line Graph Proposals and Centrality Filtering}
+% Beskriv ideen om at linjegrafen gir et "forslag" til tildeling, 
+% som deretter kan aksepteres/forkastes basert på Eigenvector Centrality eller lokal tetthet.
+
+\section{Engineering for Scale: Bitwise Semantics}
+% - Utfordringen med graf-eksplosjon på Dybde > 2.
+% - Introduksjon av komprimerte Roaring Bitmaps (binned by RN-"temperature").
+% - Deterministisk sampling.
+
+\section{Results and Visualizations}
+% - Case study 1: Ordet "is" (ISIS, Vær, Mat, Byggematerialer).
+% - Sammenligning av gamle k-clique visualiseringer med nye Linjegraf-klynger.
+% - Effekten av "temperature" (RN).
+
+\section{Conclusion}
+% Oppsummering av resultater.
+
+\begin{thebibliography}{99}
+\bibitem{johnsen2016}
+Johnsen, L. G. B. (2016). \textit{Graph Analysis of Word Networks}. Department of Research, National Library of Norway.
+\end{thebibliography}
+
+\end{document}

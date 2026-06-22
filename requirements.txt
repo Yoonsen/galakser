@@ -1,0 +1,5 @@
+fastapi>=0.103.1
+uvicorn>=0.23.2
+networkx>=3.1
+python-louvain>=0.16
+pyroaring>=1.1.0

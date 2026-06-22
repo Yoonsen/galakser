@@ -1,0 +1,1822 @@
+{
+  "nodes": [
+    {
+      "id": "flerpartivalg",
+      "label": "flerpartivalg"
+    },
+    {
+      "id": "Bankvesen",
+      "label": "Bankvesen"
+    },
+    {
+      "id": "Dandyer",
+      "label": "Dandyer"
+    },
+    {
+      "id": "menneskelig",
+      "label": "menneskelig"
+    },
+    {
+      "id": "Markedsforskning",
+      "label": "Markedsforskning"
+    },
+    {
+      "id": "antidemokrati",
+      "label": "antidemokrati"
+    },
+    {
+      "id": "hkeverd",
+      "label": "hkeverd"
+    },
+    {
+      "id": "forytringsfrihet",
+      "label": "forytringsfrihet"
+    },
+    {
+      "id": "ufrihet",
+      "label": "ufrihet"
+    },
+    {
+      "id": "ikke-demokrati",
+      "label": "ikke-demokrati"
+    },
+    {
+      "id": "valg",
+      "label": "valg"
+    },
+    {
+      "id": "korporativ",
+      "label": "korporativ"
+    },
+    {
+      "id": "sosialisme",
+      "label": "sosialisme"
+    },
+    {
+      "id": "revolusjon",
+      "label": "revolusjon"
+    },
+    {
+      "id": "Medlemsforankring",
+      "label": "Medlemsforankring"
+    },
+    {
+      "id": "folkesty-",
+      "label": "folkesty-"
+    },
+    {
+      "id": "flerparti-system",
+      "label": "flerparti-system"
+    },
+    {
+      "id": "næringsliv",
+      "label": "næringsliv"
+    },
+    {
+      "id": "kultur",
+      "label": "kultur"
+    },
+    {
+      "id": "at",
+      "label": "at"
+    },
+    {
+      "id": "klassevelde",
+      "label": "klassevelde"
+    },
+    {
+      "id": "fremmedhat",
+      "label": "fremmedhat"
+    },
+    {
+      "id": "Hkeverd",
+      "label": "Hkeverd"
+    },
+    {
+      "id": "en",
+      "label": "en"
+    },
+    {
+      "id": "voldspolitikk",
+      "label": "voldspolitikk"
+    },
+    {
+      "id": "undertrykkelse",
+      "label": "undertrykkelse"
+    },
+    {
+      "id": "diktatar",
+      "label": "diktatar"
+    },
+    {
+      "id": "Partipisk",
+      "label": "Partipisk"
+    },
+    {
+      "id": "Meningsmåling",
+      "label": "Meningsmåling"
+    },
+    {
+      "id": "Rasehat",
+      "label": "Rasehat"
+    },
+    {
+      "id": "Demokrati",
+      "label": "Demokrati"
+    },
+    {
+      "id": "Markedsføring",
+      "label": "Markedsføring"
+    },
+    {
+      "id": "Bank",
+      "label": "Bank"
+    },
+    {
+      "id": "soslalisme",
+      "label": "soslalisme"
+    },
+    {
+      "id": "Medverknad",
+      "label": "Medverknad"
+    },
+    {
+      "id": "ensretting",
+      "label": "ensretting"
+    },
+    {
+      "id": "Empirisme",
+      "label": "Empirisme"
+    },
+    {
+      "id": "religionskritikk",
+      "label": "religionskritikk"
+    },
+    {
+      "id": "Fred",
+      "label": "Fred"
+    },
+    {
+      "id": "frihet",
+      "label": "frihet"
+    },
+    {
+      "id": "om",
+      "label": "om"
+    },
+    {
+      "id": "flertallsavgjørelser",
+      "label": "flertallsavgjørelser"
+    },
+    {
+      "id": "markedsokonomi",
+      "label": "markedsokonomi"
+    },
+    {
+      "id": "maktmisbruk",
+      "label": "maktmisbruk"
+    },
+    {
+      "id": "demokrati",
+      "label": "demokrati"
+    },
+    {
+      "id": "iikeverd",
+      "label": "iikeverd"
+    },
+    {
+      "id": "folkestyre",
+      "label": "folkestyre"
+    },
+    {
+      "id": "fikeverd",
+      "label": "fikeverd"
+    },
+    {
+      "id": "Offentlegheit",
+      "label": "Offentlegheit"
+    },
+    {
+      "id": "diktatur",
+      "label": "diktatur"
+    },
+    {
+      "id": "Prihet",
+      "label": "Prihet"
+    },
+    {
+      "id": "rettssamfund",
+      "label": "rettssamfund"
+    },
+    {
+      "id": "korrupsjon",
+      "label": "korrupsjon"
+    },
+    {
+      "id": "likevert",
+      "label": "likevert"
+    },
+    {
+      "id": "diskriminering",
+      "label": "diskriminering"
+    },
+    {
+      "id": "sosialisering",
+      "label": "sosialisering"
+    },
+    {
+      "id": "flertallsdiktatur",
+      "label": "flertallsdiktatur"
+    },
+    {
+      "id": "toleranse",
+      "label": "toleranse"
+    },
+    {
+      "id": "flertallstyre",
+      "label": "flertallstyre"
+    },
+    {
+      "id": "folkerettar",
+      "label": "folkerettar"
+    },
+    {
+      "id": "bedriftskontroll",
+      "label": "bedriftskontroll"
+    },
+    {
+      "id": "terror",
+      "label": "terror"
+    },
+    {
+      "id": "RSdhusgt",
+      "label": "RSdhusgt"
+    },
+    {
+      "id": "vold",
+      "label": "vold"
+    },
+    {
+      "id": "Anarki",
+      "label": "Anarki"
+    },
+    {
+      "id": "Ytringsfridom",
+      "label": "Ytringsfridom"
+    },
+    {
+      "id": "Vold",
+      "label": "Vold"
+    },
+    {
+      "id": "likemd",
+      "label": "likemd"
+    },
+    {
+      "id": "Diktatur",
+      "label": "Diktatur"
+    },
+    {
+      "id": "folkest",
+      "label": "folkest"
+    },
+    {
+      "id": "Borgerkrig",
+      "label": "Borgerkrig"
+    },
+    {
+      "id": "teokrati",
+      "label": "teokrati"
+    },
+    {
+      "id": "Skytefelt",
+      "label": "Skytefelt"
+    },
+    {
+      "id": "flerpartistyre",
+      "label": "flerpartistyre"
+    },
+    {
+      "id": "totalitarisme",
+      "label": "totalitarisme"
+    },
+    {
+      "id": "krig",
+      "label": "krig"
+    }
+  ],
+  "links": [
+    {
+      "source": "demokrati",
+      "target": "Hkeverd",
+      "freq": 17,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "RSdhusgt",
+      "freq": 37,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "antidemokrati",
+      "freq": 17,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "bedriftskontroll",
+      "freq": 13,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "diktatar",
+      "freq": 5,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "fikeverd",
+      "freq": 20,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "flerparti-system",
+      "freq": 8,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "flerpartistyre",
+      "freq": 16,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "flerpartivalg",
+      "freq": 19,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "flertallsavgjørelser",
+      "freq": 5,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "flertallsdiktatur",
+      "freq": 25,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "flertallstyre",
+      "freq": 14,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "folkerettar",
+      "freq": 6,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "folkest",
+      "freq": 5,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "folkesty-",
+      "freq": 8,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "hkeverd",
+      "freq": 21,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "iikeverd",
+      "freq": 39,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "ikke-demokrati",
+      "freq": 6,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "likemd",
+      "freq": 45,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "likevert",
+      "freq": 15,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "Dandyer",
+      "target": "demokrati",
+      "freq": 630,
+      "ratio": 21092.981519152767,
+      "pmi": 14.364475415832118
+    },
+    {
+      "source": "Empirisme",
+      "target": "demokrati",
+      "freq": 8,
+      "ratio": 21092.981519152767,
+      "pmi": 14.364475415832118
+    },
+    {
+      "source": "Medlemsforankring",
+      "target": "demokrati",
+      "freq": 27,
+      "ratio": 21092.981519152767,
+      "pmi": 14.364475415832118
+    },
+    {
+      "source": "Medverknad",
+      "target": "demokrati",
+      "freq": 6,
+      "ratio": 21092.981519152767,
+      "pmi": 14.364475415832118
+    },
+    {
+      "source": "Offentlegheit",
+      "target": "demokrati",
+      "freq": 5,
+      "ratio": 21092.981519152767,
+      "pmi": 14.364475415832118
+    },
+    {
+      "source": "Partipisk",
+      "target": "demokrati",
+      "freq": 8,
+      "ratio": 21092.981519152767,
+      "pmi": 14.364475415832118
+    },
+    {
+      "source": "Prihet",
+      "target": "demokrati",
+      "freq": 5,
+      "ratio": 21092.981519152767,
+      "pmi": 14.364475415832118
+    },
+    {
+      "source": "Skytefelt",
+      "target": "demokrati",
+      "freq": 8,
+      "ratio": 21092.981519152767,
+      "pmi": 14.364475415832118
+    },
+    {
+      "source": "Ytringsfridom",
+      "target": "demokrati",
+      "freq": 6,
+      "ratio": 21092.981519152767,
+      "pmi": 14.364475415832118
+    },
+    {
+      "source": "demokrati",
+      "target": "markedsokonomi",
+      "freq": 18,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "soslalisme",
+      "target": "demokrati",
+      "freq": 5,
+      "ratio": 21092.981519152767,
+      "pmi": 14.364475415832118
+    },
+    {
+      "source": "demokrati",
+      "target": "teokrati",
+      "freq": 6,
+      "ratio": 11833.644521604405,
+      "pmi": 13.530606842364408
+    },
+    {
+      "source": "demokrati",
+      "target": "totalitarisme",
+      "freq": 17,
+      "ratio": 2718.5399576658765,
+      "pmi": 11.408616317985798
+    },
+    {
+      "source": "Meningsmåling",
+      "target": "demokrati",
+      "freq": 173,
+      "ratio": 19940.359578215455,
+      "pmi": 14.2834038051848
+    },
+    {
+      "source": "Diktatur",
+      "target": "demokrati",
+      "freq": 1061,
+      "ratio": 15939.924068248636,
+      "pmi": 13.960357136442322
+    },
+    {
+      "source": "Rasehat",
+      "target": "demokrati",
+      "freq": 194,
+      "ratio": 15383.603062840739,
+      "pmi": 13.909105822518056
+    },
+    {
+      "source": "forytringsfrihet",
+      "target": "demokrati",
+      "freq": 17,
+      "ratio": 14940.861909399875,
+      "pmi": 13.8669757563613
+    },
+    {
+      "source": "Bankvesen",
+      "target": "demokrati",
+      "freq": 10,
+      "ratio": 14061.987679435177,
+      "pmi": 13.779512915110962
+    },
+    {
+      "source": "Bankvesen",
+      "target": "næringsliv",
+      "freq": 5,
+      "ratio": 1887.643044549922,
+      "pmi": 10.882370259877717
+    },
+    {
+      "source": "Bank",
+      "target": "Bankvesen",
+      "freq": 6,
+      "ratio": 5107.098301785975,
+      "pmi": 12.318288113074908
+    },
+    {
+      "source": "forytringsfrihet",
+      "target": "religionskritikk",
+      "freq": 7,
+      "ratio": 1389984.8848653669,
+      "pmi": 20.406637764036738
+    },
+    {
+      "source": "flerparti-system",
+      "target": "at",
+      "freq": 14,
+      "ratio": 83.7940589563186,
+      "pmi": 6.388776054586477
+    },
+    {
+      "source": "Meningsmåling",
+      "target": "valg",
+      "freq": 10,
+      "ratio": 746.7158531921705,
+      "pmi": 9.544415550356733
+    },
+    {
+      "source": "Markedsforskning",
+      "target": "Meningsmåling",
+      "freq": 120,
+      "ratio": 10089180.740085509,
+      "pmi": 23.26630569393802
+    },
+    {
+      "source": "Markedsføring",
+      "target": "Meningsmåling",
+      "freq": 13,
+      "ratio": 14888.547967140072,
+      "pmi": 13.861915438858684
+    },
+    {
+      "source": "Rasehat",
+      "target": "Demokrati",
+      "freq": 47,
+      "ratio": 506360.2645306734,
+      "pmi": 18.949804671434986
+    },
+    {
+      "source": "Rasehat",
+      "target": "fremmedhat",
+      "freq": 11,
+      "ratio": 16294.421911526859,
+      "pmi": 13.992090549044306
+    },
+    {
+      "source": "Rasehat",
+      "target": "diskriminering",
+      "freq": 8,
+      "ratio": 2657.6531054406328,
+      "pmi": 11.375937091412753
+    },
+    {
+      "source": "Rasehat",
+      "target": "vold",
+      "freq": 6,
+      "ratio": 279.7511840028639,
+      "pmi": 8.128000426969049
+    },
+    {
+      "source": "flertallsavgjørelser",
+      "target": "en",
+      "freq": 16,
+      "ratio": 75.9983104110988,
+      "pmi": 6.247895439909052
+    },
+    {
+      "source": "Fred",
+      "target": "Prihet",
+      "freq": 70,
+      "ratio": 14829.44287076363,
+      "pmi": 13.856176777565548
+    },
+    {
+      "source": "flertallsdiktatur",
+      "target": "korporativ",
+      "freq": 7,
+      "ratio": 32543776.54347826,
+      "pmi": 24.955878342523935
+    },
+    {
+      "source": "bedriftskontroll",
+      "target": "sosialisering",
+      "freq": 10,
+      "ratio": 76186.085275978,
+      "pmi": 16.217239905660893
+    },
+    {
+      "source": "bedriftskontroll",
+      "target": "om",
+      "freq": 45,
+      "ratio": 381.3089647921582,
+      "pmi": 8.574816639824201
+    },
+    {
+      "source": "Diktatur",
+      "target": "rettssamfund",
+      "freq": 11,
+      "ratio": 462216.3538658021,
+      "pmi": 18.818208779728508
+    },
+    {
+      "source": "Diktatur",
+      "target": "klassevelde",
+      "freq": 44,
+      "ratio": 308144.23591053474,
+      "pmi": 18.23324627900735
+    },
+    {
+      "source": "Diktatur",
+      "target": "voldspolitikk",
+      "freq": 5,
+      "ratio": 43520.37098087098,
+      "pmi": 15.409403234161177
+    },
+    {
+      "source": "Diktatur",
+      "target": "Borgerkrig",
+      "freq": 6,
+      "ratio": 25927.02952051888,
+      "pmi": 14.662169304541145
+    },
+    {
+      "source": "Demokrati",
+      "target": "Diktatur",
+      "freq": 71,
+      "ratio": 185306.27670246523,
+      "pmi": 17.499552223660363
+    },
+    {
+      "source": "Diktatur",
+      "target": "ensretting",
+      "freq": 14,
+      "ratio": 8704.074196174197,
+      "pmi": 13.087475139273815
+    },
+    {
+      "source": "Diktatur",
+      "target": "ufrihet",
+      "freq": 7,
+      "ratio": 1826.1598613253504,
+      "pmi": 10.834597348476192
+    },
+    {
+      "source": "Diktatur",
+      "target": "terror",
+      "freq": 75,
+      "ratio": 1679.7672963503355,
+      "pmi": 10.71404567025272
+    },
+    {
+      "source": "Diktatur",
+      "target": "diktatur",
+      "freq": 19,
+      "ratio": 1431.9275998406433,
+      "pmi": 10.48374283453282
+    },
+    {
+      "source": "Diktatur",
+      "target": "undertrykkelse",
+      "freq": 38,
+      "ratio": 1284.2353696548998,
+      "pmi": 10.326693922881473
+    },
+    {
+      "source": "Diktatur",
+      "target": "sosialisme",
+      "freq": 14,
+      "ratio": 1169.5335178241876,
+      "pmi": 10.191717493343287
+    },
+    {
+      "source": "Diktatur",
+      "target": "revolusjon",
+      "freq": 11,
+      "ratio": 1057.1194213019135,
+      "pmi": 10.04592264982931
+    },
+    {
+      "source": "Diktatur",
+      "target": "folkestyre",
+      "freq": 13,
+      "ratio": 956.7805180308653,
+      "pmi": 9.902044203447021
+    },
+    {
+      "source": "Diktatur",
+      "target": "korrupsjon",
+      "freq": 13,
+      "ratio": 436.79970874450703,
+      "pmi": 8.770828084052189
+    },
+    {
+      "source": "Diktatur",
+      "target": "menneskelig",
+      "freq": 12,
+      "ratio": 254.99328025621054,
+      "pmi": 7.994315418549923
+    },
+    {
+      "source": "Diktatur",
+      "target": "frihet",
+      "freq": 15,
+      "ratio": 119.56224080459587,
+      "pmi": 6.9016180307740935
+    },
+    {
+      "source": "Diktatur",
+      "target": "vold",
+      "freq": 11,
+      "ratio": 97.16903660878202,
+      "pmi": 6.60242476008182
+    },
+    {
+      "source": "Diktatur",
+      "target": "krig",
+      "freq": 6,
+      "ratio": 93.98681515819524,
+      "pmi": 6.5543864789112085
+    },
+    {
+      "source": "Diktatur",
+      "target": "kultur",
+      "freq": 8,
+      "ratio": 13.753092220972254,
+      "pmi": 3.7816841230015985
+    },
+    {
+      "source": "Anarki",
+      "target": "Diktatur",
+      "freq": 9,
+      "ratio": 281728.21180129907,
+      "pmi": 18.103944514500007
+    },
+    {
+      "source": "Vold",
+      "target": "Diktatur",
+      "freq": 5,
+      "ratio": 1827.9493221874627,
+      "pmi": 10.836010358536022
+    },
+    {
+      "source": "diktatur",
+      "target": "totalitarisme",
+      "freq": 12,
+      "ratio": 14823.618098115212,
+      "pmi": 13.855609998255238
+    },
+    {
+      "source": "maktmisbruk",
+      "target": "totalitarisme",
+      "freq": 6,
+      "ratio": 8025.886262564346,
+      "pmi": 12.970444996025815
+    },
+    {
+      "source": "toleranse",
+      "target": "totalitarisme",
+      "freq": 14,
+      "ratio": 7279.566444278031,
+      "pmi": 12.829636813751435
+    },
+    {
+      "source": "frihet",
+      "target": "totalitarisme",
+      "freq": 25,
+      "ratio": 1654.499012951735,
+      "pmi": 10.692178715623472
+    },
+    {
+      "source": "Borgerkrig",
+      "target": "Anarki",
+      "freq": 16,
+      "ratio": 131417.95217405914,
+      "pmi": 17.003802840990687
+    },
+    {
+      "source": "Bank",
+      "target": "Bank",
+      "freq": 278,
+      "ratio": 516.2812101441823,
+      "pmi": 9.012013282499032
+    },
+    {
+      "source": "Fred",
+      "target": "Demokrati",
+      "freq": 61,
+      "ratio": 1515.2362062254294,
+      "pmi": 10.565326993863629
+    },
+    {
+      "source": "Fred",
+      "target": "Vold",
+      "freq": 25,
+      "ratio": 42.05263971972445,
+      "pmi": 5.394124458769115
+    },
+    {
+      "source": "Vold",
+      "target": "Vold",
+      "freq": 17,
+      "ratio": 59.922567390219676,
+      "pmi": 5.905027532465543
+    },
+    {
+      "source": "Demokrati",
+      "target": "demokrati",
+      "freq": 57,
+      "ratio": 155.89988934021105,
+      "pmi": 7.284476093766898
+    },
+    {
+      "source": "Fred",
+      "target": "demokrati",
+      "freq": 291,
+      "ratio": 53.20323846817591,
+      "pmi": 5.733442159782608
+    },
+    {
+      "source": "demokrati",
+      "target": "demokrati",
+      "freq": 117,
+      "ratio": 17.06965034369833,
+      "pmi": 4.093361601256588
+    },
+    {
+      "source": "diktatur",
+      "target": "demokrati",
+      "freq": 1582,
+      "ratio": 1782.9181856860266,
+      "pmi": 10.800024786944599
+    },
+    {
+      "source": "folkestyre",
+      "target": "demokrati",
+      "freq": 2273,
+      "ratio": 3649.0103503336813,
+      "pmi": 11.833289527761488
+    },
+    {
+      "source": "frihet",
+      "target": "demokrati",
+      "freq": 19518,
+      "ratio": 1178.4571110574918,
+      "pmi": 10.202683538548762
+    },
+    {
+      "source": "kultur",
+      "target": "demokrati",
+      "freq": 656,
+      "ratio": 19.460850973414438,
+      "pmi": 4.282502891762942
+    },
+    {
+      "source": "revolusjon",
+      "target": "demokrati",
+      "freq": 15,
+      "ratio": 14.72425180506755,
+      "pmi": 3.8801224220131947
+    },
+    {
+      "source": "sosialisering",
+      "target": "demokrati",
+      "freq": 51,
+      "ratio": 260.7859533277069,
+      "pmi": 8.026722353783073
+    },
+    {
+      "source": "sosialisme",
+      "target": "demokrati",
+      "freq": 1567,
+      "ratio": 2345.3276123261467,
+      "pmi": 11.195573747558608
+    },
+    {
+      "source": "terror",
+      "target": "demokrati",
+      "freq": 31,
+      "ratio": 13.505502872887801,
+      "pmi": 3.7554754540022564
+    },
+    {
+      "source": "toleranse",
+      "target": "demokrati",
+      "freq": 317,
+      "ratio": 150.37952369493132,
+      "pmi": 7.232464326770963
+    },
+    {
+      "source": "valg",
+      "target": "demokrati",
+      "freq": 573,
+      "ratio": 79.90029821755263,
+      "pmi": 6.320128982723736
+    },
+    {
+      "source": "Demokrati",
+      "target": "diktatur",
+      "freq": 1056,
+      "ratio": 14488.76819301522,
+      "pmi": 13.822647324522286
+    },
+    {
+      "source": "Vold",
+      "target": "diktatur",
+      "freq": 11,
+      "ratio": 21.14085739681214,
+      "pmi": 4.40196198329411
+    },
+    {
+      "source": "diktatur",
+      "target": "diktatur",
+      "freq": 31,
+      "ratio": 175.2601682080746,
+      "pmi": 7.453354338420358
+    },
+    {
+      "source": "ensretting",
+      "target": "diktatur",
+      "freq": 339,
+      "ratio": 11088.172662649527,
+      "pmi": 13.436734007650267
+    },
+    {
+      "source": "folkestyre",
+      "target": "diktatur",
+      "freq": 186,
+      "ratio": 1497.9082007073555,
+      "pmi": 10.548733495613346
+    },
+    {
+      "source": "frihet",
+      "target": "diktatur",
+      "freq": 183,
+      "ratio": 55.42760995334874,
+      "pmi": 5.792532894632191
+    },
+    {
+      "source": "klassevelde",
+      "target": "diktatur",
+      "freq": 65,
+      "ratio": 27077.851794748676,
+      "pmi": 14.724825667650084
+    },
+    {
+      "source": "korrupsjon",
+      "target": "diktatur",
+      "freq": 47,
+      "ratio": 94.03902728343303,
+      "pmi": 6.55518771107284
+    },
+    {
+      "source": "krig",
+      "target": "diktatur",
+      "freq": 468,
+      "ratio": 130.32704251220864,
+      "pmi": 7.025992660099162
+    },
+    {
+      "source": "maktmisbruk",
+      "target": "diktatur",
+      "freq": 37,
+      "ratio": 226.51242693736143,
+      "pmi": 7.82344639143301
+    },
+    {
+      "source": "revolusjon",
+      "target": "diktatur",
+      "freq": 809,
+      "ratio": 3983.7042885443943,
+      "pmi": 11.959894844396329
+    },
+    {
+      "source": "sosialisering",
+      "target": "diktatur",
+      "freq": 28,
+      "ratio": 718.2384408923173,
+      "pmi": 9.488319059430857
+    },
+    {
+      "source": "sosialisme",
+      "target": "diktatur",
+      "freq": 133,
+      "ratio": 998.5797524468774,
+      "pmi": 9.963733844148894
+    },
+    {
+      "source": "terror",
+      "target": "diktatur",
+      "freq": 803,
+      "ratio": 1754.9356880626015,
+      "pmi": 10.777202446694371
+    },
+    {
+      "source": "ufrihet",
+      "target": "diktatur",
+      "freq": 187,
+      "ratio": 5507.049196287536,
+      "pmi": 12.427063781279267
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "diktatur",
+      "freq": 438,
+      "ratio": 1998.862156785182,
+      "pmi": 10.964963270711984
+    },
+    {
+      "source": "vold",
+      "target": "diktatur",
+      "freq": 652,
+      "ratio": 211.11998783576612,
+      "pmi": 7.721919362426873
+    },
+    {
+      "source": "Vold",
+      "target": "diskriminering",
+      "freq": 12,
+      "ratio": 19.260454611137977,
+      "pmi": 4.267569850898118
+    },
+    {
+      "source": "ensretting",
+      "target": "diskriminering",
+      "freq": 10,
+      "ratio": 273.1590904355519,
+      "pmi": 8.093597624921436
+    },
+    {
+      "source": "fremmedhat",
+      "target": "diskriminering",
+      "freq": 102,
+      "ratio": 4031.051210689582,
+      "pmi": 11.976940396042249
+    },
+    {
+      "source": "korrupsjon",
+      "target": "diskriminering",
+      "freq": 95,
+      "ratio": 158.74105110828603,
+      "pmi": 7.310531453246298
+    },
+    {
+      "source": "maktmisbruk",
+      "target": "diskriminering",
+      "freq": 18,
+      "ratio": 92.02761997258844,
+      "pmi": 6.523995012766521
+    },
+    {
+      "source": "terror",
+      "target": "diskriminering",
+      "freq": 19,
+      "ratio": 34.678047533090705,
+      "pmi": 5.115950768140792
+    },
+    {
+      "source": "toleranse",
+      "target": "diskriminering",
+      "freq": 20,
+      "ratio": 39.74764562607999,
+      "pmi": 5.312797502600744
+    },
+    {
+      "source": "ufrihet",
+      "target": "diskriminering",
+      "freq": 14,
+      "ratio": 344.31882008978977,
+      "pmi": 8.427601228969383
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "diskriminering",
+      "freq": 581,
+      "ratio": 2214.3192919942426,
+      "pmi": 11.112647550035488
+    },
+    {
+      "source": "vold",
+      "target": "diskriminering",
+      "freq": 638,
+      "ratio": 172.5272942250239,
+      "pmi": 7.4306808074808135
+    },
+    {
+      "source": "en",
+      "target": "en",
+      "freq": 191993,
+      "ratio": 10.671017339050005,
+      "pmi": 3.41562581931932
+    },
+    {
+      "source": "demokrati",
+      "target": "ensretting",
+      "freq": 9,
+      "ratio": 54.33816361961206,
+      "pmi": 5.76389390480415
+    },
+    {
+      "source": "krig",
+      "target": "ensretting",
+      "freq": 7,
+      "ratio": 16.081028314864938,
+      "pmi": 4.007287758700339
+    },
+    {
+      "source": "maktmisbruk",
+      "target": "ensretting",
+      "freq": 8,
+      "ratio": 404.0242064148038,
+      "pmi": 8.658297921931037
+    },
+    {
+      "source": "sosialisering",
+      "target": "ensretting",
+      "freq": 15,
+      "ratio": 3174.1610834879407,
+      "pmi": 11.63215962910875
+    },
+    {
+      "source": "terror",
+      "target": "ensretting",
+      "freq": 81,
+      "ratio": 1460.3527374151909,
+      "pmi": 10.512101168188659
+    },
+    {
+      "source": "ufrihet",
+      "target": "ensretting",
+      "freq": 17,
+      "ratio": 4130.0314682176795,
+      "pmi": 12.011937058768947
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "ensretting",
+      "freq": 81,
+      "ratio": 3049.4452745059034,
+      "pmi": 11.574331110122413
+    },
+    {
+      "source": "Demokrati",
+      "target": "folkestyre",
+      "freq": 471,
+      "ratio": 6310.8806264515115,
+      "pmi": 12.623625618993312
+    },
+    {
+      "source": "folkestyre",
+      "target": "folkestyre",
+      "freq": 7,
+      "ratio": 55.05183588030552,
+      "pmi": 5.782718770779616
+    },
+    {
+      "source": "frihet",
+      "target": "folkestyre",
+      "freq": 3668,
+      "ratio": 1084.9404507664804,
+      "pmi": 10.0834001441599
+    },
+    {
+      "source": "sosialisme",
+      "target": "folkestyre",
+      "freq": 30,
+      "ratio": 219.9651513815372,
+      "pmi": 7.781131168472919
+    },
+    {
+      "source": "toleranse",
+      "target": "folkestyre",
+      "freq": 11,
+      "ratio": 25.563495309029058,
+      "pmi": 4.676013205047226
+    },
+    {
+      "source": "valg",
+      "target": "folkestyre",
+      "freq": 26,
+      "ratio": 17.760910804277668,
+      "pmi": 4.150633661886295
+    },
+    {
+      "source": "terror",
+      "target": "fremmedhat",
+      "freq": 5,
+      "ratio": 40.69199727800487,
+      "pmi": 5.346673188578823
+    },
+    {
+      "source": "vold",
+      "target": "fremmedhat",
+      "freq": 60,
+      "ratio": 72.34796982215023,
+      "pmi": 6.1768806283187185
+    },
+    {
+      "source": "Demokrati",
+      "target": "frihet",
+      "freq": 442,
+      "ratio": 641.3943693951111,
+      "pmi": 9.325067878631605
+    },
+    {
+      "source": "Fred",
+      "target": "frihet",
+      "freq": 3682,
+      "ratio": 357.1583320806107,
+      "pmi": 8.480419967862248
+    },
+    {
+      "source": "frihet",
+      "target": "frihet",
+      "freq": 351,
+      "ratio": 11.243913778192784,
+      "pmi": 3.491072390729051
+    },
+    {
+      "source": "sosialisme",
+      "target": "frihet",
+      "freq": 518,
+      "ratio": 411.33550932822465,
+      "pmi": 8.6841718104106
+    },
+    {
+      "source": "toleranse",
+      "target": "frihet",
+      "freq": 538,
+      "ratio": 135.40778714800453,
+      "pmi": 7.081166898826198
+    },
+    {
+      "source": "ufrihet",
+      "target": "frihet",
+      "freq": 70,
+      "ratio": 218.02722008118903,
+      "pmi": 7.768364452412938
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "frihet",
+      "freq": 86,
+      "ratio": 41.509023271831055,
+      "pmi": 5.37535307988925
+    },
+    {
+      "source": "demokrati",
+      "target": "korporativ",
+      "freq": 6,
+      "ratio": 3087.0377012881054,
+      "pmi": 11.592007387028552
+    },
+    {
+      "source": "Demokrati",
+      "target": "korrupsjon",
+      "freq": 7,
+      "ratio": 42.81905858543145,
+      "pmi": 5.4201811720433
+    },
+    {
+      "source": "Vold",
+      "target": "korrupsjon",
+      "freq": 20,
+      "ratio": 17.13686738753515,
+      "pmi": 4.099031504366039
+    },
+    {
+      "source": "krig",
+      "target": "korrupsjon",
+      "freq": 145,
+      "ratio": 18.002309250379586,
+      "pmi": 4.1701100753525555
+    },
+    {
+      "source": "maktmisbruk",
+      "target": "korrupsjon",
+      "freq": 1350,
+      "ratio": 3684.644615537441,
+      "pmi": 11.847309762564118
+    },
+    {
+      "source": "revolusjon",
+      "target": "korrupsjon",
+      "freq": 17,
+      "ratio": 37.321494101587625,
+      "pmi": 5.221934838038555
+    },
+    {
+      "source": "terror",
+      "target": "korrupsjon",
+      "freq": 298,
+      "ratio": 290.3577707004547,
+      "pmi": 8.181687834461082
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "korrupsjon",
+      "freq": 141,
+      "ratio": 286.879408468962,
+      "pmi": 8.164300608331468
+    },
+    {
+      "source": "vold",
+      "target": "korrupsjon",
+      "freq": 890,
+      "ratio": 128.48229686368734,
+      "pmi": 7.00542577887142
+    },
+    {
+      "source": "Borgerkrig",
+      "target": "krig",
+      "freq": 6,
+      "ratio": 228.6958205929049,
+      "pmi": 7.837286190570287
+    },
+    {
+      "source": "Fred",
+      "target": "krig",
+      "freq": 563,
+      "ratio": 107.32435644076413,
+      "pmi": 6.745833711617048
+    },
+    {
+      "source": "Vold",
+      "target": "krig",
+      "freq": 86,
+      "ratio": 34.35394268097067,
+      "pmi": 5.10240377645973
+    },
+    {
+      "source": "krig",
+      "target": "krig",
+      "freq": 453,
+      "ratio": 26.220146434819373,
+      "pmi": 4.712603837662812
+    },
+    {
+      "source": "maktmisbruk",
+      "target": "krig",
+      "freq": 27,
+      "ratio": 34.35597651987258,
+      "pmi": 5.1024891850683485
+    },
+    {
+      "source": "revolusjon",
+      "target": "krig",
+      "freq": 389,
+      "ratio": 398.1405359544807,
+      "pmi": 8.637133954053363
+    },
+    {
+      "source": "sosialisme",
+      "target": "krig",
+      "freq": 9,
+      "ratio": 14.045003386302362,
+      "pmi": 3.811985067190836
+    },
+    {
+      "source": "terror",
+      "target": "krig",
+      "freq": 1907,
+      "ratio": 866.2526524818807,
+      "pmi": 9.758644054590633
+    },
+    {
+      "source": "ufrihet",
+      "target": "krig",
+      "freq": 61,
+      "ratio": 373.3837460529026,
+      "pmi": 8.544515316055335
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "krig",
+      "freq": 460,
+      "ratio": 436.32971550194674,
+      "pmi": 8.769274919156006
+    },
+    {
+      "source": "vold",
+      "target": "krig",
+      "freq": 2679,
+      "ratio": 180.30289250580023,
+      "pmi": 7.494278731138994
+    },
+    {
+      "source": "voldspolitikk",
+      "target": "krig",
+      "freq": 24,
+      "ratio": 10772.039876090295,
+      "pmi": 13.395003855100562
+    },
+    {
+      "source": "frihet",
+      "target": "kultur",
+      "freq": 2491,
+      "ratio": 17.21042912041698,
+      "pmi": 4.10521116450135
+    },
+    {
+      "source": "næringsliv",
+      "target": "kultur",
+      "freq": 4193,
+      "ratio": 27.92704179266368,
+      "pmi": 4.803590857295714
+    },
+    {
+      "source": "terror",
+      "target": "maktmisbruk",
+      "freq": 127,
+      "ratio": 393.8039808178192,
+      "pmi": 8.62133388475492
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "maktmisbruk",
+      "freq": 190,
+      "ratio": 1230.2491021606004,
+      "pmi": 10.264734748247456
+    },
+    {
+      "source": "vold",
+      "target": "maktmisbruk",
+      "freq": 563,
+      "ratio": 258.65499625140114,
+      "pmi": 8.014885249081722
+    },
+    {
+      "source": "demokrati",
+      "target": "menneskelig",
+      "freq": 127,
+      "ratio": 26.207108677915798,
+      "pmi": 4.71188629074656
+    },
+    {
+      "source": "frihet",
+      "target": "menneskelig",
+      "freq": 334,
+      "ratio": 28.523417573407094,
+      "pmi": 4.834074945561734
+    },
+    {
+      "source": "toleranse",
+      "target": "menneskelig",
+      "freq": 39,
+      "ratio": 26.168008676886664,
+      "pmi": 4.709732237795015
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "menneskelig",
+      "freq": 69,
+      "ratio": 88.78464381559509,
+      "pmi": 6.472238264628514
+    },
+    {
+      "source": "vold",
+      "target": "menneskelig",
+      "freq": 115,
+      "ratio": 10.499282650139584,
+      "pmi": 3.3922188558797046
+    },
+    {
+      "source": "om",
+      "target": "om",
+      "freq": 92502,
+      "ratio": 44.289730194944354,
+      "pmi": 5.468900303499136
+    },
+    {
+      "source": "folkestyre",
+      "target": "rettssamfund",
+      "freq": 8,
+      "ratio": 35920.916124934716,
+      "pmi": 15.132536524507293
+    },
+    {
+      "source": "Anarki",
+      "target": "revolusjon",
+      "freq": 12,
+      "ratio": 2518.075499801306,
+      "pmi": 11.298105824889781
+    },
+    {
+      "source": "Borgerkrig",
+      "target": "revolusjon",
+      "freq": 12,
+      "ratio": 2806.104933054142,
+      "pmi": 11.454353243572246
+    },
+    {
+      "source": "Demokrati",
+      "target": "revolusjon",
+      "freq": 74,
+      "ratio": 1294.6821882730997,
+      "pmi": 10.33838228089556
+    },
+    {
+      "source": "Vold",
+      "target": "revolusjon",
+      "freq": 6,
+      "ratio": 14.704324200561608,
+      "pmi": 3.878168575480748
+    },
+    {
+      "source": "sosialisme",
+      "target": "revolusjon",
+      "freq": 103,
+      "ratio": 986.1256313792941,
+      "pmi": 9.945627645933701
+    },
+    {
+      "source": "terror",
+      "target": "revolusjon",
+      "freq": 25,
+      "ratio": 69.67060417235692,
+      "pmi": 6.12247816905456
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "revolusjon",
+      "freq": 17,
+      "ratio": 98.92853190261391,
+      "pmi": 6.628314762463929
+    },
+    {
+      "source": "vold",
+      "target": "revolusjon",
+      "freq": 431,
+      "ratio": 177.96022005929493,
+      "pmi": 7.475410977387672
+    },
+    {
+      "source": "kultur",
+      "target": "sosialisering",
+      "freq": 17,
+      "ratio": 10.018605706057581,
+      "pmi": 3.3246098368612707
+    },
+    {
+      "source": "sosialisme",
+      "target": "sosialisering",
+      "freq": 227,
+      "ratio": 6749.331403324951,
+      "pmi": 12.720528878843016
+    },
+    {
+      "source": "Demokrati",
+      "target": "sosialisme",
+      "freq": 259,
+      "ratio": 3938.986461613777,
+      "pmi": 11.943608743046836
+    },
+    {
+      "source": "Fred",
+      "target": "sosialisme",
+      "freq": 23,
+      "ratio": 23.382270928056727,
+      "pmi": 4.547343148689461
+    },
+    {
+      "source": "sosialisme",
+      "target": "sosialisme",
+      "freq": 5,
+      "ratio": 41.6119719776069,
+      "pmi": 5.378926753731515
+    },
+    {
+      "source": "Vold",
+      "target": "terror",
+      "freq": 730,
+      "ratio": 416.93962447335707,
+      "pmi": 8.703694677091798
+    },
+    {
+      "source": "terror",
+      "target": "terror",
+      "freq": 37,
+      "ratio": 24.03077536649241,
+      "pmi": 4.586811293473613
+    },
+    {
+      "source": "ufrihet",
+      "target": "terror",
+      "freq": 73,
+      "ratio": 638.8819361259434,
+      "pmi": 9.319405538939254
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "terror",
+      "freq": 1206,
+      "ratio": 1635.5975160847067,
+      "pmi": 10.675602061678502
+    },
+    {
+      "source": "vold",
+      "target": "terror",
+      "freq": 14551,
+      "ratio": 1400.215872410342,
+      "pmi": 10.451433550437546
+    },
+    {
+      "source": "Demokrati",
+      "target": "toleranse",
+      "freq": 32,
+      "ratio": 144.9911637799896,
+      "pmi": 7.179821170296092
+    },
+    {
+      "source": "kultur",
+      "target": "toleranse",
+      "freq": 347,
+      "ratio": 17.053285720916925,
+      "pmi": 4.091977830417054
+    },
+    {
+      "source": "toleranse",
+      "target": "toleranse",
+      "freq": 16,
+      "ratio": 12.5739008531765,
+      "pmi": 3.652360387325492
+    },
+    {
+      "source": "maktmisbruk",
+      "target": "ufrihet",
+      "freq": 98,
+      "ratio": 2076.7761070476213,
+      "pmi": 11.020129975248624
+    },
+    {
+      "source": "sosialisering",
+      "target": "ufrihet",
+      "freq": 7,
+      "ratio": 621.5584109820102,
+      "pmi": 9.279746164760212
+    },
+    {
+      "source": "sosialisme",
+      "target": "ufrihet",
+      "freq": 20,
+      "ratio": 519.7977608540799,
+      "pmi": 9.021806608864422
+    },
+    {
+      "source": "undertrykkelse",
+      "target": "ufrihet",
+      "freq": 422,
+      "ratio": 6666.447757371655,
+      "pmi": 12.70270250514735
+    },
+    {
+      "source": "vold",
+      "target": "ufrihet",
+      "freq": 49,
+      "ratio": 54.92260530728979,
+      "pmi": 5.779328157640359
+    },
+    {
+      "source": "Vold",
+      "target": "undertrykkelse",
+      "freq": 94,
+      "ratio": 81.01236977162729,
+      "pmi": 6.340070304683104
+    },
+    {
+      "source": "sosialisme",
+      "target": "undertrykkelse",
+      "freq": 8,
+      "ratio": 26.934856931518514,
+      "pmi": 4.751402496996358
+    },
+    {
+      "source": "vold",
+      "target": "undertrykkelse",
+      "freq": 4356,
+      "ratio": 632.5038868641473,
+      "pmi": 9.304930535261356
+    },
+    {
+      "source": "voldspolitikk",
+      "target": "undertrykkelse",
+      "freq": 9,
+      "ratio": 8715.14400158932,
+      "pmi": 13.089308787069552
+    },
+    {
+      "source": "Demokrati",
+      "target": "valg",
+      "freq": 46,
+      "ratio": 81.50744362255823,
+      "pmi": 6.348859913580465
+    },
+    {
+      "source": "valg",
+      "target": "valg",
+      "freq": 219,
+      "ratio": 19.78364828309057,
+      "pmi": 4.3062365914892995
+    },
+    {
+      "source": "Anarki",
+      "target": "vold",
+      "freq": 19,
+      "ratio": 366.47550128317107,
+      "pmi": 8.517572947864721
+    },
+    {
+      "source": "vold",
+      "target": "vold",
+      "freq": 370,
+      "ratio": 14.042719894220676,
+      "pmi": 3.8117504890673968
+    },
+    {
+      "source": "diktatur",
+      "target": "voldspolitikk",
+      "freq": 17,
+      "ratio": 11100.066409183892,
+      "pmi": 13.438280687468405
+    },
+    {
+      "source": "terror",
+      "target": "voldspolitikk",
+      "freq": 33,
+      "ratio": 8329.419317108866,
+      "pmi": 13.024000206720093
+    }
+  ]
+}
