@@ -37,7 +37,7 @@ def get_network(
     safe_depth = min(depth, 3)
     
     # 1. Hent rå-grafen via BFS eller Bitmaps
-    if use_bitmaps and explorer.bm_cur is not None:
+    if use_bitmaps and explorer.has_bitmaps():
         nodes, edges = explorer.get_neighborhood_roaring(word, table, safe_depth, top_n, sample_k, seed)
     else:
         nodes, edges = explorer.get_neighborhood(word, table, safe_depth, top_k, min_ratio)
