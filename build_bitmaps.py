@@ -3,7 +3,7 @@ import math
 import pyroaring
 import os
 
-def build_case_folded_bitmaps(source_db, target_db, table, top_n_limits=[15, 50, 100], min_rn=10):
+def build_case_folded_bitmaps(source_db, target_db, table, top_n_limits=[15, 50, 100], min_rn=10, min_freq=5):
     con_src = sqlite3.connect(source_db)
     cur_src = con_src.cursor()
     
@@ -73,7 +73,7 @@ def build_case_folded_bitmaps(source_db, target_db, table, top_n_limits=[15, 50,
         
         ratio = (freq_AB * N) / (f_A * f_B)
         
-        if ratio >= min_rn:
+        if freq_AB >= min_freq and ratio >= min_rn:
             wid1 = word_to_id[w1]
             wid2 = word_to_id[w2]
             
