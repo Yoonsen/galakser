@@ -15,7 +15,7 @@ class NetworkExplorer:
             self.bm_con = sqlite3.connect(bitmap_db_path)
             self.bm_cur = self.bm_con.cursor()
 
-    def get_neighborhood_roaring(self, start_word, table='avis_og', max_depth=2, top_n=50, sample_k=None):
+    def get_neighborhood_roaring(self, start_word, table='avis_og', max_depth=2, top_n=50, sample_k=None, seed=None):
         if not self.bm_cur:
             raise Exception("Bitmap database not found!")
             
@@ -49,10 +49,13 @@ class NetworkExplorer:
                 bm = fetch_bm(w_id)
                 
                 # Beholder mulighet for sampling hvis vi f.eks henter Top 100 men bare vil ha 10 tilfeldige av dem
-                # For å beholde determinisme (samme graf hver gang), "steds-spesifiserer" vi
-                # random-generatoren ved å bruke ordets ID (w_id) som seed!
                 if sample_k is not None and len(bm) > sample_k:
-                    rnd = random.Random(w_id)
+                    if seed is not None:
+                        # For reproduserbarhet bruker vi hash av seed + word_id
+                        # Dette sikrer ulik sampling per node, men lik totalgraf for en gitt seed.
+                        rnd = random.Random(hash((seed, w_id)))
+                    else:
+                        rnd = random.Random() # Ekte randomisering fra system-entropi
                     bm = pyroaring.BitMap(rnd.sample(list(bm), sample_k))
                 
                 next_layer |= bm
