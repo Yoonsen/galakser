@@ -3,7 +3,7 @@ import math
 import pyroaring
 import os
 
-def build_case_folded_bitmaps(source_db, target_db, table, top_n_limits=[15, 50, 100], min_rn=10, min_freq=5):
+def build_case_folded_bitmaps(source_db, target_db, table, top_n_limits=[15, 50, 100], min_rn=10, min_freq=50):
     con_src = sqlite3.connect(source_db)
     cur_src = con_src.cursor()
     
