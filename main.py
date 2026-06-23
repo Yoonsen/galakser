@@ -26,16 +26,18 @@ def get_network(
     word: str = Query(..., description="Startordet for utforskningen"),
     table: str = Query("avis_og", description="Tabellen som skal søkes i (f.eks. avis_og, bok_nob_eller)"),
     depth: int = Query(2, description="Dybde for BFS (maks 3)"),
-    top_k: int = Query(20, description="Maks antall naboer per node per dybde (brukes ikke med bitmaps)"),
-    min_ratio: float = Query(10.0, description="Minimum Radon-Nikodym ratio for å inkludere kanten"),
-    use_bitmaps: bool = Query(True, description="Bruk Roaring Bitmaps for ekstrem ytelse hvis tilgjengelig")
+    top_k: int = Query(20, description="Maks antall naboer per node for B-trær"),
+    min_ratio: float = Query(10.0, description="Minimum RN ratio for B-trær"),
+    use_bitmaps: bool = Query(True, description="Bruk Roaring Bitmaps for ekstrem ytelse"),
+    top_n: int = Query(50, description="Hvilken Top N bitmap som skal brukes (f.eks. 15, 50, 100)"),
+    sample_k: int = Query(None, description="Valgfri ned-sampling fra Top N")
 ):
     # Cap depth to prevent abuse/performance issues
     safe_depth = min(depth, 3)
     
     # 1. Hent rå-grafen via BFS eller Bitmaps
     if use_bitmaps and explorer.bm_cur is not None:
-        nodes, edges = explorer.get_neighborhood_roaring(word, table, safe_depth, int(min_ratio), top_k)
+        nodes, edges = explorer.get_neighborhood_roaring(word, table, safe_depth, top_n, sample_k)
     else:
         nodes, edges = explorer.get_neighborhood(word, table, safe_depth, top_k, min_ratio)
     

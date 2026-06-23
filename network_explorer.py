@@ -15,7 +15,7 @@ class NetworkExplorer:
             self.bm_con = sqlite3.connect(bitmap_db_path)
             self.bm_cur = self.bm_con.cursor()
 
-    def get_neighborhood_roaring(self, start_word, table='avis_og', max_depth=2, rn_threshold=10, top_k=20):
+    def get_neighborhood_roaring(self, start_word, table='avis_og', max_depth=2, top_n=50, sample_k=None):
         if not self.bm_cur:
             raise Exception("Bitmap database not found!")
             
@@ -31,7 +31,7 @@ class NetworkExplorer:
         
         # Hjelpefunksjon for å hente bitmap
         def fetch_bm(word_id):
-            self.bm_cur.execute(f"SELECT neighbors FROM {table}_bitmaps WHERE word_id = ? AND rn_threshold = ?", (word_id, rn_threshold))
+            self.bm_cur.execute(f"SELECT neighbors FROM {table}_bitmaps WHERE word_id = ? AND top_n = ?", (word_id, top_n))
             res = self.bm_cur.fetchone()
             if res:
                 return pyroaring.BitMap.deserialize(res[0])
@@ -48,13 +48,12 @@ class NetworkExplorer:
             for w_id in current_layer:
                 bm = fetch_bm(w_id)
                 
-                # Hvis noden har ekstremt mange naboer, sampler vi for å unngå eksplosjon på nivå 3.
+                # Beholder mulighet for sampling hvis vi f.eks henter Top 100 men bare vil ha 10 tilfeldige av dem
                 # For å beholde determinisme (samme graf hver gang), "steds-spesifiserer" vi
                 # random-generatoren ved å bruke ordets ID (w_id) som seed!
-                if len(bm) > top_k:
-                    # Deterministic spread: Unngår at vi bare velger naboer på 'A' og 'B'
+                if sample_k is not None and len(bm) > sample_k:
                     rnd = random.Random(w_id)
-                    bm = pyroaring.BitMap(rnd.sample(list(bm), top_k))
+                    bm = pyroaring.BitMap(rnd.sample(list(bm), sample_k))
                 
                 next_layer |= bm
             
@@ -83,7 +82,7 @@ class NetworkExplorer:
         id_to_word = {r[0]: r[1] for r in self.bm_cur.fetchall()}
         
         final_nodes = [id_to_word[w_id] for w_id in all_nodes]
-        final_edges = [(id_to_word[u], id_to_word[v], 0, rn_threshold, 0) for u, v in edges_set]
+        final_edges = [(id_to_word[u], id_to_word[v], 0, top_n, 0) for u, v in edges_set]
         
         return final_nodes, final_edges
 

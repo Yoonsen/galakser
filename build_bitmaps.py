@@ -3,7 +3,7 @@ import math
 import pyroaring
 import os
 
-def build_case_folded_bitmaps(source_db, target_db, table, thresholds=[5, 10, 50, 100, 200, 500]):
+def build_case_folded_bitmaps(source_db, target_db, table, top_n_limits=[15, 50, 100], min_rn=10):
     con_src = sqlite3.connect(source_db)
     cur_src = con_src.cursor()
     
@@ -13,7 +13,8 @@ def build_case_folded_bitmaps(source_db, target_db, table, thresholds=[5, 10, 50
     # 1. Bygg skjema for bitmaps
     cur_dst.execute("CREATE TABLE IF NOT EXISTS word_dict (id INTEGER PRIMARY KEY, word TEXT UNIQUE)")
     cur_dst.execute("CREATE INDEX IF NOT EXISTS idx_word_dict ON word_dict(word)")
-    cur_dst.execute(f"CREATE TABLE IF NOT EXISTS {table}_bitmaps (word_id INT, rn_threshold INT, neighbors BLOB, PRIMARY KEY (word_id, rn_threshold))")
+    cur_dst.execute(f"DROP TABLE IF EXISTS {table}_bitmaps") # Vi sletter den gamle for å bygge på nytt
+    cur_dst.execute(f"CREATE TABLE IF NOT EXISTS {table}_bitmaps (word_id INT, top_n INT, neighbors BLOB, PRIMARY KEY (word_id, top_n))")
     
     # 2. Hent all data case-foldet fra kilden og summer opp freq (siden vi slår sammen store/små bokstaver)
     print(f"Reading and case-folding data from {table}...")
@@ -61,30 +62,42 @@ def build_case_folded_bitmaps(source_db, target_db, table, thresholds=[5, 10, 50
     cur_dst.executemany("INSERT OR IGNORE INTO word_dict (id, word) VALUES (?, ?)", dict_batch)
     con_dst.commit()
     
-    # 4. Regn ut ny Radon-Nikodym og bygg bitmaps
-    # Bitmap-dict: [threshold][word_id] = pyroaring.BitMap()
-    bitmaps = {t: {wid: pyroaring.BitMap() for wid in word_to_id.values()} for t in thresholds}
+    # 4. Regn ut ny Radon-Nikodym og samle naboer
+    from collections import defaultdict
+    neighbors_for_word = defaultdict(list)
     
-    print("Calculating RN ratios and populating bitmaps...")
+    print("Calculating RN ratios and collecting neighbors...")
     for (w1, w2), freq_AB in pairs.items():
         f_A = marginals[w1]
         f_B = marginals[w2]
         
         ratio = (freq_AB * N) / (f_A * f_B)
         
-        wid1 = word_to_id[w1]
-        wid2 = word_to_id[w2]
+        if ratio >= min_rn:
+            wid1 = word_to_id[w1]
+            wid2 = word_to_id[w2]
+            
+            neighbors_for_word[wid1].append((wid2, ratio))
+            neighbors_for_word[wid2].append((wid1, ratio))
+
+    # Bygg bitmaps for top_n
+    bitmaps = {t: {wid: pyroaring.BitMap() for wid in word_to_id.values()} for t in top_n_limits}
+    
+    print("Sorting neighbors by RN ratio and populating Top N bitmaps...")
+    for wid, n_list in neighbors_for_word.items():
+        # Sorter synkende på ratio
+        n_list.sort(key=lambda x: x[1], reverse=True)
         
-        for t in thresholds:
-            if ratio >= t:
-                bitmaps[t][wid1].add(wid2)
-                bitmaps[t][wid2].add(wid1)
+        for t in top_n_limits:
+            top_neighbors = n_list[:t]
+            for neighbor_id, _ in top_neighbors:
+                bitmaps[t][wid].add(neighbor_id)
                 
     # 5. Lagre bitmaps i SQLite som BLOBs
     print("Serializing and saving Bitmaps to database...")
-    insert_sql = f"INSERT OR REPLACE INTO {table}_bitmaps (word_id, rn_threshold, neighbors) VALUES (?, ?, ?)"
+    insert_sql = f"INSERT OR REPLACE INTO {table}_bitmaps (word_id, top_n, neighbors) VALUES (?, ?, ?)"
     
-    for t in thresholds:
+    for t in top_n_limits:
         batch = []
         for wid, bm in bitmaps[t].items():
             if len(bm) > 0: # Ikke lagre tomme bitmaps
